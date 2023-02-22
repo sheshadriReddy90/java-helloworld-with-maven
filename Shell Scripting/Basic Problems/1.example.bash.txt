@@ -1,0 +1,17 @@
+#!/bin/bash
+cur_yr=`date +"%Y"`
+echo -n "enter your name:"
+read NAME
+echo -n "enter your age:"
+read AGE
+let fif_yr=(50-$AGE)+cur_yr
+echo Hello $NAME you will be 50 years old in $fif_yr
+#!/bin/bash
+cur_yr=`date +"%Y"`
+echo -n "enter your name:"
+read NAME
+echo -n "enter your age:"
+read AGE
+let fif_yr=(50-$AGE)+cur_yr
+echo Hello $NAME you will be 50 years old in $fif_yr
+

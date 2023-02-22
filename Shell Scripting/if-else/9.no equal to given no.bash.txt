@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter a Number: "
+
+read Number 
+
+if [ "$Number" -eq 10 ] 
+then
+        echo "True"
+else
+        echo "False"
+fi

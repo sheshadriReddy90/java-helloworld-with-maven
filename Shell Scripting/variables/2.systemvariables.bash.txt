@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Sytem varibels are always defined in the CAPITAL LETTER'S ONLY.
+
+echo our shell name is$BASH
+
+echo our shell version is $BASH_VERSION
+
+echo our present working dir is $PWD
+
+echo our home dir is $HOME
+
+#User defined variabes are always defined in the lower cases.
+
+name="sheshadri"
+value=10
+echo The name is $name
+echo the value is $value

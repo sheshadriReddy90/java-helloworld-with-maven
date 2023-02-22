@@ -1,0 +1,13 @@
+#!/bin/bash
+mkdir /tmp/test00/
+echo dir is created inside /tmp
+cd /tmp/test00/
+touch file01 file02 file 03
+ls -l
+#!/bin/bash
+mkdir /tmp/test00/
+echo dir is created inside /tmp
+cd /tmp/test00/
+touch file01 file02 file 03
+ls -l
+

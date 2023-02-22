@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Enter your number"
+read number
+if [ "$number" -gt 0 ]; then
+	echo "positive Number"
+elif [ "$number" -lt 0 ]; then
+	echo "negative number"
+else
+	echo "Zero"
+fi
+
+
+
+
+
+
+
+
+

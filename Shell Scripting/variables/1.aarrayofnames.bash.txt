@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Enter your names : "
+
+read -a names
+
+echo the names are "${names[0]}","${names[1]}"

@@ -1,0 +1,17 @@
+#!/bin/bash 
+# \c used to keep cursor on the same line. to ininte this we need to use -e flag
+echo -e "Enter the file name : \c"
+
+read file_name 
+#-e flag is used to check whether the file exists or not.
+
+if [ -e $file_name ]
+then
+        echo $file_name found
+# -f flag it will check whether the file is regular file or
+elif [ -f $file_name ]
+then 
+        echo $file_name found
+else
+        echo $file_name not found
+fi

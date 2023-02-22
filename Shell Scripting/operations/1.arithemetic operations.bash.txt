@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+echo "Enter a number"
+
+read num1
+
+echo "emter a number"
+
+read num2 
+
+echo The addtion is $(( num1 + num2 ))
+
+echo The Subtraction is $(( num1 - num2 ))
+
+echo The Multiplication is $(( num1 * num2 ))
+
+echo The Division is $(( num1 / num2 ))
+
+echo The Modulas  is $(( num1 % num2 ))

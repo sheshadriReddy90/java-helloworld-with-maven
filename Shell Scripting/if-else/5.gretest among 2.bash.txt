@@ -1,0 +1,71 @@
+#!/bin/bash
+echo "enter a number A"
+read A
+echo "Enter a number B"
+read B
+
+if ["$A" -gt "$B" ]; then
+	echo $B
+else
+	echo $B
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

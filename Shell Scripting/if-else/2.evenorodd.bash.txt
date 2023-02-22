@@ -1,0 +1,10 @@
+#!/bash/bin
+
+echo "enter a number"
+read number 
+if [ "$number" % 2 == 0 ];
+then 
+        echo "Even Number"
+else
+        echo "Odd Number"
+fi

@@ -1,0 +1,25 @@
+#!/bin/bash
+echo "enter your marks"
+read marks
+if [ "$marks" -ge 35 ]; then
+	echo "JUst pass marks"
+elif [ "$marks" -le 50 ]; then
+	echo "below avg marks"
+elif [ "$marks" -le 80 ]; then
+	echo "Best marks"
+else
+	echo "Fail"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+#!/bin/bash-
+#$1-$9--> represents positional parameters for arguments from one to nine
+echo "$1-$9"
+#${10}-${n} ----> represents positional parametersfor arguments arfter nine.
+echo "${10}-${n}"
+#$0 --> represents the name of the script
+echo "$0"
+#$* ---> represents the all the arguemnts as a single string.
+echo "$*"
+#$@ -->same as $*,but differ when enclosed within("")
+echo "$@"
+#$# --> represent the total number of arguments
+echo "$#"
+#$$ --> PID of the script.
+echo "$$"
+#$? ---> represen the last return code.
+echo #$?
+
+
+

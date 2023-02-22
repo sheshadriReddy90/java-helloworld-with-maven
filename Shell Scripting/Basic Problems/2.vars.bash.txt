@@ -1,0 +1,11 @@
+#!/bin/bash
+touch file1 file2
+echo -n "Enter a file name to delete"
+read file
+echo "enter yes to remove a n file"
+#!/bin/bash
+touch file1 file2
+echo -n "Enter a file name to delete"
+read file
+echo "enter yes to remove a n file"
+

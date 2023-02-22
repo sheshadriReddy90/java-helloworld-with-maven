@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Enter a Number A"
+read A
+echo "Enter a Number B"
+read B
+echo "Enter a Number C"
+read C
+
+if [ "$A" -gt 100 -a "$B" -gt 100 -a "$C" -gt 100 ] ; then
+	echo "All the given Number are greter than 100"
+else
+	echo "No value is greter than 100"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

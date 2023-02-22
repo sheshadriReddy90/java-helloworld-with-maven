@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#This is my first scripting
+echo "Hello World"
+echo "-----------"
+echo "Basic example using shell scripting"
+#!/bin/bash
+
+#This is my first scripting
+echo "Hello World"
+echo "-----------"
+echo "Basic example using shell scripting"
+

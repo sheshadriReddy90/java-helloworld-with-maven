@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "enter your age:"
+read age
+
+if [ "$age" -ge 18 ];
+then
+	echo "Your are eligible to vote"
+elif [ "$age" -lt 10 ]; then
+	echo "eligible"
+else
+	echo "not eligible to vote"
+fi
+
+
+
+
+	
+
+

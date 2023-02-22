@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter a Word: "
+
+read Word
+
+if   [ $Word == "abc" ]
+then
+        echo "True"
+else
+        echo "False"
+fi
